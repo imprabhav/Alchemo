@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alchemo – Electroplating & Laboratory Chemicals</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white/80 backdrop-blur-lg shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-gray-900">Alchemo</a>
+            <div class="hidden md:flex space-x-6 items-center">
+                <a href="#home" class="text-gray-600 hover:text-blue-600 transition duration-300">Home</a>
+                <a href="#about" class="text-gray-600 hover:text-blue-600 transition duration-300">About Us</a>
+                <a href="#products" class="text-gray-600 hover:text-blue-600 transition duration-300">Products</a>
+                <a href="#consultancy" class="text-gray-600 hover:text-blue-600 transition duration-300">Consultancy</a>
+                <a href="#industries" class="text-gray-600 hover:text-blue-600 transition duration-300">Industries</a>
+                <a href="#contact" class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition duration-300">Contact Us</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden">
+                <i data-lucide="menu"></i>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white">
+            <a href="#home" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Home</a>
+            <a href="#about" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">About Us</a>
+            <a href="#products" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Products</a>
+            <a href="#consultancy" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Consultancy</a>
+            <a href="#industries" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Industries</a>
+            <a href="#contact" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Contact Us</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="bg-white pt-20 pb-16 md:pt-32 md:pb-24">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold text-gray-900 leading-tight">Alchemo – Your Trusted Partner in Electroplating & Laboratory Chemicals</h1>
+                <p class="mt-6 text-lg md:text-xl text-gray-600 max-w-4xl mx-auto">Providing high-quality Analytical Reagents, Laboratory Reagents, Indicators & Testing Chemicals, with expert consultancy in Electroplating Plant Setup & Gold, Nickel, Nickel-Free Plating Solutions.</p>
+                <div class="mt-10 flex justify-center space-x-4">
+                    <a href="#contact" class="bg-blue-600 text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-blue-700 transition duration-300">Contact Us Today</a>
+                    <a href="#contact" class="bg-gray-200 text-gray-800 px-8 py-3 rounded-md text-lg font-semibold hover:bg-gray-300 transition duration-300">Request a Quote</a>
+                </div>
+            </div>
+            <!-- Key Highlights -->
+            <div class="container mx-auto px-6 mt-16 md:mt-24">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 text-center">
+                    <div class="p-4">
+                        <i data-lucide="flask-conical" class="mx-auto h-10 w-10 text-blue-600"></i>
+                        <h3 class="mt-4 font-semibold">High-purity Chemicals</h3>
+                    </div>
+                    <div class="p-4">
+                        <i data-lucide="beaker" class="mx-auto h-10 w-10 text-blue-600"></i>
+                        <h3 class="mt-4 font-semibold">Analytical & Lab Reagents</h3>
+                    </div>
+                    <div class="p-4">
+                        <i data-lucide="test-tube-2" class="mx-auto h-10 w-10 text-blue-600"></i>
+                        <h3 class="mt-4 font-semibold">Indicators & Testing</h3>
+                    </div>
+                    <div class="p-4">
+                        <i data-lucide="wrench" class="mx-auto h-10 w-10 text-blue-600"></i>
+                        <h3 class="mt-4 font-semibold">Technical Consultancy</h3>
+                    </div>
+                    <div class="p-4">
+                        <i data-lucide="gem" class="mx-auto h-10 w-10 text-blue-600"></i>
+                        <h3 class="mt-4 font-semibold">Gold & Nickel Plating</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="py-16 md:py-24">
+            <div class="container mx-auto px-6">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <span class="text-blue-600 font-semibold">Who We Are</span>
+                        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mt-2">At Alchemo, we blend chemistry with innovation.</h2>
+                        <p class="mt-6 text-gray-600">We specialize in electroplating chemicals, analytical reagents, and laboratory reagents to meet the highest industry standards. Our mission is to provide high-quality chemicals backed by technical expertise in electroplating processes.</p>
+                        <p class="mt-4 text-gray-600">With years of experience, we not only supply chemicals but also help businesses set up and optimize their electroplating plants for maximum efficiency and performance.</p>
+                    </div>
+                    <div>
+                        <img src="https://placehold.co/600x400/e2e8f0/4a5568?text=Alchemo+Lab" alt="Alchemo Laboratory" class="rounded-lg shadow-lg w-full h-auto">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products & Solutions Section -->
+        <section id="products" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center">
+                    <span class="text-blue-600 font-semibold">Our Offerings</span>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mt-2">Products & Solutions</h2>
+                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">A comprehensive range of chemicals for various industrial and laboratory needs.</p>
+                </div>
+                <div class="mt-12 grid md:grid-cols-2 gap-8">
+                    <!-- Electroplating Chemicals -->
+                    <div class="bg-gray-50 p-8 rounded-lg border border-gray-200">
+                        <div class="flex items-center">
+                            <i data-lucide="layers" class="h-8 w-8 text-blue-600"></i>
+                            <h3 class="ml-4 text-2xl font-semibold text-gray-900">Electroplating Chemicals</h3>
+                        </div>
+                        <ul class="mt-6 space-y-3 text-gray-600 list-disc list-inside">
+                            <li>Gold Plating Solutions (decorative, functional, micron plating)</li>
+                            <li>Nickel Plating Chemicals (bright nickel, nickel-free alternatives)</li>
+                            <li>White & Yellow Bronze Solutions</li>
+                            <li>Brighteners, Additives & Conductivity Salts</li>
+                        </ul>
+                    </div>
+                    <!-- Analytical & Laboratory Reagents -->
+                    <div class="bg-gray-50 p-8 rounded-lg border border-gray-200">
+                        <div class="flex items-center">
+                            <i data-lucide="flask-conical" class="h-8 w-8 text-blue-600"></i>
+                            <h3 class="ml-4 text-2xl font-semibold text-gray-900">Analytical & Laboratory Reagents</h3>
+                        </div>
+                        <ul class="mt-6 space-y-3 text-gray-600 list-disc list-inside">
+                            <li>High-purity AR Grade Reagents</li>
+                            <li>Standard LR Grade Reagents</li>
+                            <li>Indicators & Testing Chemicals (pH indicators, titration chemicals, buffers)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Consultancy Section -->
+        <section id="consultancy" class="py-16 md:py-24">
+            <div class="container mx-auto px-6">
+                <div class="text-center">
+                    <span class="text-blue-600 font-semibold">Expert Guidance</span>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mt-2">End-to-End Technical Consultancy</h2>
+                    <p class="mt-4 text-gray-600 max-w-3xl mx-auto">Our consultancy ensures smooth operations, cost savings, and high-quality finishes for jewelry, electronics, and industrial plating.</p>
+                </div>
+                <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                        <i data-lucide="hard-hat" class="mx-auto h-10 w-10 text-blue-600"></i>
+                        <h3 class="mt-4 font-semibold text-lg">Plant Setup</h3>
+                        <p class="mt-2 text-sm text-gray-600">From design to commissioning.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                        <i data-lucide="settings-2" class="mx-auto h-10 w-10 text-blue-600"></i>
+                        <h3 class="mt-4 font-semibold text-lg">Bath Optimization</h3>
+                        <p class="mt-2 text-sm text-gray-600">Gold, nickel, bronze & more.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                        <i data-lucide="search" class="mx-auto h-10 w-10 text-blue-600"></i>
+                        <h3 class="mt-4 font-semibold text-lg">Troubleshooting</h3>
+                        <p class="mt-2 text-sm text-gray-600">Deposit defects, brightness, durability.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                        <i data-lucide="leaf" class="mx-auto h-10 w-10 text-blue-600"></i>
+                        <h3 class="mt-4 font-semibold text-lg">Eco-Friendly Plating</h3>
+                        <p class="mt-2 text-sm text-gray-600">Sustainable, nickel-free solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Industries We Serve Section -->
+        <section id="industries" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center">
+                    <span class="text-blue-600 font-semibold">Our Clients</span>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mt-2">Industries We Serve</h2>
+                </div>
+                <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="border border-gray-200 rounded-lg p-8">
+                        <i data-lucide="gem" class="h-10 w-10 text-blue-600"></i>
+                        <h3 class="mt-5 text-xl font-semibold">Jewelry & Luxury Accessories</h3>
+                        <p class="mt-2 text-gray-600">Gold, nickel-free & bronze plating solutions.</p>
+                    </div>
+                    <div class="border border-gray-200 rounded-lg p-8">
+                        <i data-lucide="car" class="h-10 w-10 text-blue-600"></i>
+                        <h3 class="mt-5 text-xl font-semibold">Automotive & Hardware</h3>
+                        <p class="mt-2 text-gray-600">Corrosion-resistant nickel & bronze finishes.</p>
+                    </div>
+                    <div class="border border-gray-200 rounded-lg p-8">
+                        <i data-lucide="microscope" class="h-10 w-10 text-blue-600"></i>
+                        <h3 class="mt-5 text-xl font-semibold">Laboratories & R&D Centers</h3>
+                        <p class="mt-2 text-gray-600">Analytical reagents, testing indicators.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Why Choose Us Section -->
+        <section id="why-us" class="py-16 md:py-24">
+            <div class="container mx-auto px-6">
+                <div class="text-center">
+                    <span class="text-blue-600 font-semibold">Our Advantage</span>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mt-2">Why Choose Alchemo?</h2>
+                </div>
+                <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="flex items-start space-x-4">
+                        <div class="bg-blue-100 p-3 rounded-full">
+                            <i data-lucide="award" class="h-6 w-6 text-blue-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-lg">High-Purity Chemicals</h3>
+                            <p class="text-gray-600 mt-1">Consistent, reliable results for superior quality.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4">
+                        <div class="bg-blue-100 p-3 rounded-full">
+                            <i data-lucide="users" class="h-6 w-6 text-blue-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-lg">Expert Technical Support</h3>
+                            <p class="text-gray-600 mt-1">Guidance in plating, testing, and consultancy.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4">
+                        <div class="bg-blue-100 p-3 rounded-full">
+                            <i data-lucide="settings" class="h-6 w-6 text-blue-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-lg">Custom Solutions</h3>
+                            <p class="text-gray-600 mt-1">Tailored to your specific plant and product needs.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4">
+                        <div class="bg-blue-100 p-3 rounded-full">
+                            <i data-lucide="shield-check" class="h-6 w-6 text-blue-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-lg">Eco-Friendly Options</h3>
+                            <p class="text-gray-600 mt-1">Meet international standards with nickel-free solutions.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4">
+                        <div class="bg-blue-100 p-3 rounded-full">
+                            <i data-lucide="thumbs-up" class="h-6 w-6 text-blue-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-lg">Trusted by Industry</h3>
+                            <p class="text-gray-600 mt-1">Preferred by jewelers, manufacturers, and labs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section id="contact" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="grid md:grid-cols-2 gap-12">
+                    <div>
+                        <span class="text-blue-600 font-semibold">Get in Touch</span>
+                        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mt-2">Contact Us</h2>
+                        <p class="mt-4 text-gray-600">Have a question or need a quote? We're here to help. Reach out to us via phone, email, or the form below.</p>
+                        <div class="mt-8 space-y-4">
+                            <div class="flex items-center">
+                                <i data-lucide="map-pin" class="h-6 w-6 text-blue-600"></i>
+                                <p class="ml-4 text-gray-700">[City, India]</p>
+                            </div>
+                            <div class="flex items-center">
+                                <i data-lucide="phone" class="h-6 w-6 text-blue-600"></i>
+                                <p class="ml-4 text-gray-700">+91-XXXXXXXXXX</p>
+                            </div>
+                            <div class="flex items-center">
+                                <i data-lucide="mail" class="h-6 w-6 text-blue-600"></i>
+                                <p class="ml-4 text-gray-700">info@alchemo.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-50 p-8 rounded-lg border border-gray-200">
+                        <form action="#" method="POST">
+                            <div class="space-y-6">
+                                <div>
+                                    <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                                    <input type="text" id="name" name="name" class="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                                </div>
+                                <div>
+                                    <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                                    <input type="email" id="email" name="email" class="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                                </div>
+                                <div>
+                                    <label for="business_type" class="block text-sm font-medium text-gray-700">Business Type</label>
+                                    <input type="text" id="business_type" name="business_type" class="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                                </div>
+                                <div>
+                                    <label for="requirement" class="block text-sm font-medium text-gray-700">Requirement</label>
+                                    <textarea id="requirement" name="requirement" rows="4" class="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"></textarea>
+                                </div>
+                                <div>
+                                    <button type="submit" class="w-full bg-blue-600 text-white py-3 px-4 rounded-md font-semibold hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition duration-300">Send Enquiry</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white">
+        <div class="container mx-auto px-6 py-6 text-center">
+            <p>&copy; 2025 Alchemo. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        const mobileMenuLinks = document.querySelectorAll('#mobile-menu a');
+        mobileMenuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
